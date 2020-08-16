@@ -1,0 +1,24 @@
+.name_cinema{
+    font-weight: bold;
+    font-family: EmbossedBlack, cursive;
+    font-style: italic;
+    font-size:26px;
+
+}
+
+.var {
+    font-family: Century Gothic, cursive;
+
+}
+
+@media print{
+
+    .print {
+        visibility: visible;
+    }
+
+    #btn{
+        display: none;
+    }
+
+}
